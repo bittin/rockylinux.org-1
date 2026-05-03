@@ -1,0 +1,58 @@
+{
+  "language": "it",
+  "js-warning": "Sembra che JavaScript sia disabilitato nel tuo browser. Mentre la maggior parte delle aree di questo sito web funziona senza l'uso di JavaScript, potresti avere effetti indesiderati durante la navigazione del nostro sito. Considera di creare un'eccezione alla regola per il nostro sito, nelle impostazioni del browser.",
+  "categories": {
+    "news": "Notizie",
+    "about": "Informazioni",
+    "community": "Comunità",
+    "documentation": "Documentazione",
+    "get-involved": "Partecipa",
+    "legal": "Informazioni legali",
+    "language": "Lingua",
+    "foundation": "Fondazione"
+  },
+  "about": {
+    "about": "Informazioni Su Rocky Linux",
+    "faq": "Domande Frequenti",
+    "charter": "Carta della Comunità",
+    "org-structure": "Struttura organizzativa",
+    "status": "Stato dei Servizi",
+    "sponsors": "Sponsor",
+    "partners": "Partner",
+    "support": "Fornitori di Supporto",
+    "errata": "Security Errata"
+  },
+  "community": {
+    "contribute": "Contribuisci",
+    "forums": "Forum",
+    "mailing": "Mailing Lists",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "Calendario",
+    "bug": "Inviaci un Bug",
+    "donate": "Dona",
+    "store": "Negozio"
+  },
+  "documentation": {
+    "wiki": "Wiki",
+    "guides": "Guide e Manuali",
+    "keys": "Informazioni Chiave GPG"
+  },
+  "legal": {
+    "licensing": "Licenza",
+    "privacy": "Informativa sulla Privacy"
+  },
+  "foundation": {
+    "charter": "RESF Statuto e Regolamento",
+    "faq": "FAQ RESF"
+  },
+  "lang": {
+    "choose": "Scegli la Lingua",
+    "translate": "Traduci questo sito"
+  },
+  "download": "Scarica",
+  "copyright": {
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Tutti i diritti riservati.",
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+  }
+}

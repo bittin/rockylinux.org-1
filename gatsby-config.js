@@ -20,21 +20,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/news`,
+        path: `${__dirname}/src/news`,
         name: `news`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/press`,
-        name: `press`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/pages`,
+        path: `${__dirname}/src/pages`,
         name: `pages`,
       },
     },
@@ -64,7 +57,61 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.nodes.map((node) => {
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_elements: [{ 'content:encoded': node.html }],
+                });
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { posttype: { eq: "news" } } },
+                ) {
+                  nodes {
+                    excerpt
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      title
+                      date
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml',
+            title: "Rocky Linux's RSS Feed",
+            match: '^/news/',
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -74,52 +121,42 @@ module.exports = {
         background_color: `#10B981`,
         theme_color: `#10B981`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/logo.png`,
+        icon: `src/images/favicon.png`,
       },
     },
     {
       resolve: `gatsby-theme-i18n`,
       options: {
         defaultLang: `en`,
-        configPath: require.resolve(`./src/i18n/config.json`),
+        prefixDefault: false,
+        configPath: require.resolve(`./i18n/config.json`),
       },
     },
     {
       resolve: `gatsby-theme-i18n-react-i18next`,
       options: {
-        locales: `./src/i18n/locales`,
+        locales: `./i18n/locales`,
         i18nextOptions: {
           debug: process.env.NODE_ENV === 'development',
-          supportedLngs: [
-            'en',
-            'tr',
-            'es',
-            'nl',
-            'it',
-            'de',
-            'fr',
-            'lv',
-            'pt-pt',
-            'pt-br',
-            'pl',
-            'id',
-            'ru',
-            'uk',
-            'vi',
-            'ja',
-            'ar',
-            'fa',
-            'zh-cn',
-            'zh-hk',
-            'zh-tw',
-            'ko',
-            'sv',
-            'ca',
-          ],
           fallbackLng: 'en',
-          lowerCaseLng: 'true',
+          lowerCaseLng: false,
           load: 'currentOnly',
-          ns: ['translation'],
+          ns: [
+            'translation',
+            'index',
+            'news',
+            'about',
+            'faq',
+            'download',
+            'alternative-images',
+            'cloud-images',
+            'sponsors',
+            'partners',
+            'support',
+            'resf-faq',
+            'merch',
+            'ai',
+          ],
           returnObjects: true,
           interpolation: {
             escapeValue: false,
@@ -131,11 +168,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-matomo',
+      resolve: `@devular/gatsby-plugin-plausible`,
       options: {
-        siteId: '1',
-        matomoUrl: 'https://analytics.rockylinux.org',
-        siteUrl: 'https://rockylinux.org',
+        domain: `rockylinux.org`,
+        proxyScript: `https://img.resf.workers.dev/js/script.outbound-links.js`,
+        proxyApi: `https://img.resf.workers.dev/img/event`,
       },
     },
   ],

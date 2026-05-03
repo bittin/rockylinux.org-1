@@ -1,0 +1,53 @@
+{
+  "title": "Download Rocky",
+  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "rl8": "Rocky 8",
+  "rl9": "Rocky 9",
+  "elCompat8": "Enterprise Linux v8 Compatible",
+  "elCompat9": "Enterprise Linux v9 Compatible",
+  "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "headings": {
+    "arch": "아키텍처",
+    "isos": "ISO",
+    "packages": "패키지"
+  },
+  "body": {
+    "x86_64": "x86_64",
+    "arm": "ARM64 (aarch64)",
+    "minimal": "Minimal",
+    "dvd": "DVD",
+    "boot": "Boot",
+    "torrent": "Torrent",
+    "checksum": "체크섬",
+    "baseos": "BaseOS"
+  },
+  "links": {
+    "alt": "대체 이미지",
+    "bug": "버그 신고",
+    "cloud": "클라우드 이미지",
+    "docs": "문서",
+    "vault": "아카이브 버전",
+    "verify": "Verify Download"
+  },
+  "get-involved": {
+    "heading": "참여하기",
+    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+  },
+  "isos": {
+    "heading": "각 ISO의 차이는 무엇입니까?",
+    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "boot": {
+      "heading": "Boot",
+      "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+    }
+  }
+}

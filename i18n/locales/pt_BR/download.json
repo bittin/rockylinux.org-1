@@ -1,0 +1,53 @@
+{
+  "title": "Download Rocky",
+  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "rl8": "Rocky 8",
+  "rl9": "Rocky 9",
+  "elCompat8": "Enterprise Linux v8 Compatible",
+  "elCompat9": "Enterprise Linux v9 Compatible",
+  "rl8-eol": "<0>EOL planejado:</0> 31 maio 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "headings": {
+    "arch": "Arquitetura",
+    "isos": "ISOs",
+    "packages": "Pacotes"
+  },
+  "body": {
+    "x86_64": "x86_64",
+    "arm": "ARM64 (aarch64)",
+    "minimal": "Minimal",
+    "dvd": "DVD",
+    "boot": "Boot",
+    "torrent": "Torrent",
+    "checksum": "Checksum",
+    "baseos": "BaseOS"
+  },
+  "links": {
+    "alt": "Imagens Alternativas",
+    "bug": "Reportar Bug",
+    "cloud": "Imagens em Nuvem",
+    "docs": "Documentação ",
+    "vault": "Archived Releases",
+    "verify": "Verify Download"
+  },
+  "get-involved": {
+    "heading": "Participe",
+    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+  },
+  "isos": {
+    "heading": "Qual é a diferença entre as ISOs?",
+    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Usado para instalar o sistema operacional de outra fonte (como um repositório HTTP dos arquivos binários). Também pode ser usado para entrar no Modo de Recuperação."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Usado para instalar o sistema operacional de outra fonte (como um repositório HTTP dos arquivos binários). Também pode ser usado para entrar no Modo de Recuperação."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "language": "ar",
+  "js-warning": "يبدو أن جافا سكريبت معطل في المتصفح الخاص بك. في حين أن معظم صفحات هذا الموقع تعمل بدون استخدام جافا سكريبت، قد تواجه مشاكل غير متوقعة أثناء تصفح موقعنا. الرجاء النظر في وضع استثناء لموقعنا في إعدادات المتصفح الخاص بك.",
+  "categories": {
+    "news": "الأخبار",
+    "about": "عن النظام",
+    "community": "المجتمع",
+    "documentation": "Documentation",
+    "get-involved": "Get Involved",
+    "legal": "المعلومات القانونية",
+    "language": "اللغة",
+    "foundation": "Foundation"
+  },
+  "about": {
+    "about": "عن Rocky Linux",
+    "faq": "الأسئلة الشائعة",
+    "charter": "ميثاق المجتمع",
+    "org-structure": "الهيكل التنظيمي",
+    "status": "حالة الخدمة",
+    "sponsors": "Sponsors",
+    "partners": "Partners",
+    "support": "مزودي خدمات الدعم",
+    "errata": "Security Errata"
+  },
+  "community": {
+    "contribute": "ساهم",
+    "forums": "المنتديات",
+    "mailing": "القوائم البريدية",
+    "mattermost": "Mattermost",
+    "irc": "الدردشة عبر الإنترنت",
+    "calendar": "التقويم",
+    "bug": "أبلغ عن خطأ",
+    "donate": "تبرع",
+    "store": "المتجر"
+  },
+  "documentation": {
+    "wiki": "الويكي (Wiki)",
+    "guides": "التعليمات ودليل الاستخدام",
+    "keys": "معلومات عن مفتاح GPG"
+  },
+  "legal": {
+    "licensing": "الترخيص",
+    "privacy": "سياسة الخصوصية"
+  },
+  "foundation": {
+    "charter": "RESF Charter & Bylaws",
+    "faq": "RESF FAQ"
+  },
+  "lang": {
+    "choose": "اختر اللغة",
+    "translate": "ترجم هذه الصفحة"
+  },
+  "download": "Download",
+  "copyright": {
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+  }
+}

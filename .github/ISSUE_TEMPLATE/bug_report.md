@@ -1,46 +1,21 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug Report
+about: You've experienced a bug on our website and want to report it.
 title: ''
 labels: 'bug'
 assignees: ''
 ---
 
-## Describe the bug
+#### Description
 
-A clear and concise description of what the bug is.
+A clear and concise description of what the issue is about.
 
-## To Reproduce
+#### Screenshots
 
-Steps to reproduce the behavior:
+#### Files
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+A list of relevant files for this issue. This will help people navigate the project and offer some clues of where to start.
 
-## Expected behavior
+#### To Reproduce
 
-A clear and concise description of what you expected to happen.
-
-## Screenshots
-
-If applicable, add screenshots to help explain your problem.
-
-## Device Information
-
-**Desktop (please complete the following information):**
-
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
-- Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
-
-- Device: [e.g. iPhone6]
-- OS: [e.g. iOS8.1]
-- Browser [e.g. stock browser, safari]
-- Version [e.g. 22]
-
-**Additional context (Please delete this if there's no additional context):**
-Add any other context about the problem here.
+Include some steps to reproduce the behavior.

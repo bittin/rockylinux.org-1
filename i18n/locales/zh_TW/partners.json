@@ -1,0 +1,63 @@
+{
+  "title": "合作夥伴",
+  "description": "RESF的合作夥伴代表著對Rocky Linux項目具有重要戰畧意義的持續關係。通過提供工程專業知識、基礎設施資源或其他管道，他們的支持對我們的持續成功和長期穩定至關重要。",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "創始合作夥伴",
+      "blurb": "我們相信能幫助人們做偉大的事情，這就是為什麼CIQ是RESF的創始合作夥伴。 我們為研究領域、學術界、政府、企業、合作夥伴和所有介於兩者之間的客戶提供Rocky Linux的商業支持和服務。"
+    },
+    "arm": {
+      "name": "Arm",
+      "tier": "首席合作夥伴",
+      "blurb": "ARM致力于确保其架构从使用 Rocky Linux 的第一天起就是一等公民。我们已经与 RESF 合作，提供专门的工程工作来补充 Rocky Linux 开发与测试团队，密切合作以测试、验证和支持现在以及将来的ARM。"
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "首席合作夥伴",
+      "blurb": "Equinix是一家全球數位基礎設施公司。 使用電腦技術的領導者，利用我們值得信賴的平臺，將推動他們成功的基礎設施綜合在一起然後相互連接。"
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "首席合作夥伴",
+      "blurb": "Fastly的邊緣雲平臺使客戶能够快速、安全、可靠地創建卓越的數位體驗。 通過處理、服務和保護我們客戶的應用程序，使其盡可能接近互聯網邊緣的最終用戶。"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "首席合作夥伴",
+      "blurb": "Mattermost是一個開源消息傳遞解決方案，專為具有最高安全要求的組織而設計。 作為開源力量的堅定信仰者，Mattermost很高興能與RESF合作，幫助將Linux的企業級發行版本帶到技術社區。"
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "首席合作夥伴",
+      "blurb": "NAVER Cloud Platform是一家韓國的雲服務公司，成立於2017年，隸屬於NAVER的子公司Naver Cloud。 它在2021年提供170多項個人服務，並擁有各種安全認證，包括CSA STAR GOLD、GDPR等等，它現時還在全球10個位置提供雲服務。"
+    },
+    "osl": {
+      "name": "OSU 開源實驗室",
+      "tier": "首席合作夥伴",
+      "blurb": "俄勒岡州州立大學開源實驗室（Oregon State University Open Source Lab）是一個致力於推動開源技術發展的非營利組織。 OSL為對開源管理和程式設計感興趣的有前途的學生提供世界一流的託管服務、專業軟體發展和現場培訓。"
+    },
+    "supermicro": {
+      "name": "超微",
+      "tier": "首席合作夥伴",
+      "blurb": "作為高性能、高效率服務器技術和創新領域的全球領先者，超微很高興能與RESF合作，提供針對Rocky Linux進行優化的資料中心服務器和存儲系統。"
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "第4級合作夥伴"
+    },
+    "dsstudio": {
+      "name": "DotSlash Studio",
+      "tier": "第4級合作夥伴"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "第4級合作夥伴"
+    },
+    "act": {
+      "name": "Advanced Clustering Technologies",
+      "tier": "Principal Partner",
+      "blurb": "Advanced Clustering Technologies has been building custom, turn-key high performance computing systems since 2001. We provide on premises and cloud HPC solutions based on the latest architectures. Learn more, configure a system, and request a quote at advancedclustering.com."
+    }
+  }
+}

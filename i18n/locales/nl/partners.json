@@ -1,0 +1,63 @@
+{
+  "title": "Partners",
+  "description": "Partners van de RESF vertegenwoordigen doorlopende relaties van strategisch belang voor het Rocky Linux-project. Door de inzet van technische expertise, infrastructuur of andere middelen is hun steun cruciaal voor ons voortdurende succes en langdurige stabiliteit.",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Oprichtingspartner",
+      "blurb": "We geloven in het helpen van mensen om geweldige dingen te doen. Daarom is CIQ een sponsor van de RESF. We bieden commerciële ondersteuning en diensten voor Rocky Linux aan klanten in onderzoek, academici, overheid, ondernemerschap, partners en iedereen daartussen."
+    },
+    "arm": {
+      "name": "ARM",
+      "tier": "Hoofdpartner",
+      "blurb": "ARM zet zich in om ervoor te zorgen dat zijn architectuur een eersteklas burger is met Rocky Linux. We hebben samengewerkt met de RESF, en hebben gezorgd voor specifieke technische inspanningen om Rocky Linux ontwikkelings- en testteams aan te vullen, nauw samenwerkend om ARM te testen, te valideren en te steunen, nu en ver tot in de toekomst."
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "Hoofdpartner",
+      "blurb": "Equinix is hét digitale infrastructuurbedrijf. Digitale leiders gebruiken ons vertrouwde platform om de fundamentele infrastructuur die hun succes activeert samen te brengen en met elkaar te verbinden."
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "Hoofdpartner",
+      "blurb": "Fastly's edge cloud platform stelt klanten in staat om snel, veilig en betrouwbaar fantastische digitale ervaringen te creëren door het verwerken en beveiligen van de applicaties van onze klanten, zo dicht mogelijk bij hun eindgebruikers - op de rand van het internet."
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "Hoofdpartner",
+      "blurb": "Patroon is een open source messaging oplossing gemaakt voor organisaties met de hoogste beveiligingseisen. Als grote gelovers in de macht van open source is Mattermost enthousiast om te partneren met de RESF om een enterprise-graad distributie van Linux naar de tech community te brengen."
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "Hoofdpartner",
+      "blurb": "NAVER Cloud Platform is een Zuid-Koreaanse cloud dienst die in 2017 begon onder NAVER Cloud, dochter van NAVER. Het levert meer dan 170 individuele diensten in 2021 en heeft verschillende beveiligingscertificeringen, waaronder CSA STAR GOLD, GDPR, en meer. Het levert momenteel ook cloud diensten op 10 locaties over de hele wereld."
+    },
+    "osl": {
+      "name": "OSU Open Source Labs",
+      "tier": "Hoofdpartner",
+      "blurb": "Het Oregon State University Open Source Lab is een non-profit organisatie die werkt aan de ontwikkeling van open source technologieën. Het OSL biedt hosting diensten van wereldklasse, professionele softwareontwikkeling en ter plaatse training voor veelbelovende studenten die geïnteresseerd zijn in open source management en programmeren."
+    },
+    "supermicro": {
+      "name": "Supermicro",
+      "tier": "Hoofdpartner",
+      "blurb": "Als wereldleider in hoge prestaties, high-efficiency server technologie en innovatie is Supermicro enthousiast om met de RESF te werken en datacentrum en opslagsystemen te leveren die zijn geoptimaliseerd voor Rocky Linux."
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "Niveau 4 Partner"
+    },
+    "dsstudio": {
+      "name": "DotSlash Studio",
+      "tier": "Niveau 4 Partner"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "Niveau 4 Partner"
+    },
+    "act": {
+      "name": "Advanced Clustering Technologies",
+      "tier": "Principal Partner",
+      "blurb": "Advanced Clustering Technologies has been building custom, turn-key high performance computing systems since 2001. We provide on premises and cloud HPC solutions based on the latest architectures. Learn more, configure a system, and request a quote at advancedclustering.com."
+    }
+  }
+}

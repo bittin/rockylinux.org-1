@@ -1,0 +1,58 @@
+{
+  "language": "en",
+  "js-warning": "Il semble que JavaScript soit désactivé dans votre navigateur. Alors que la plupart des zones de ce site fonctionnent sans utiliser JavaScript, vous pouvez rencontrer des expériences non voulues lors de votre navigation sur notre site. Veuillez envisager de faire une exception pour notre site dans les paramètres de votre navigateur.",
+  "categories": {
+    "news": "Actualités",
+    "about": "À propos",
+    "community": "Communauté",
+    "documentation": "Documentation",
+    "get-involved": "Contribuez",
+    "legal": "Légal",
+    "language": "Langue",
+    "foundation": "Fondation"
+  },
+  "about": {
+    "about": "À propos de Rocky Linux",
+    "faq": "Questions fréquemment posées",
+    "charter": "Charte communautaire",
+    "org-structure": "Structure organisationnelle",
+    "status": "État du service",
+    "sponsors": "Sponsors",
+    "partners": "Partenaires",
+    "support": "Fournisseurs de Support",
+    "errata": "Errata de sécurité"
+  },
+  "community": {
+    "contribute": "Contribuer",
+    "forums": "Forums",
+    "mailing": "Listes de diffusion",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "Calendrier",
+    "bug": "Soumettre un bogue",
+    "donate": "Faire un don",
+    "store": "Boutique"
+  },
+  "documentation": {
+    "wiki": "Wiki",
+    "guides": "Guides et Manuels",
+    "keys": "Infos de la clé GPG"
+  },
+  "legal": {
+    "licensing": "Licences",
+    "privacy": "Politique de Confidentialité"
+  },
+  "foundation": {
+    "charter": "Charte & réglements intérieurs RESF",
+    "faq": "FAQ RESF"
+  },
+  "lang": {
+    "choose": "Choisissez la langue",
+    "translate": "Traduire ce site"
+  },
+  "download": "Téléchargement",
+  "copyright": {
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Tous droits réservés.",
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+  }
+}

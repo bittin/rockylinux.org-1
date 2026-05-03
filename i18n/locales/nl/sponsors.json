@@ -1,0 +1,89 @@
+{
+  "title": "Sponsoren",
+  "description": "Wij willen onze sponsoren bedanken voor hun steun aan het project.",
+  "tierone": "Niveau 1 - Hoofdsponsors",
+  "tiertwo": "Niveau 2",
+  "tierthree": "Niveau 3",
+  "tierfour": "Niveau 4",
+  "blurb": {
+    "lineone": "Sponsor worden?",
+    "linetwo": "Neem vandaag contact op.",
+    "emailus": "Email Ons"
+  },
+  "sponsors": {
+    "ciq": {
+      "name": "CIQ",
+      "title": "Oprichtend Sponsor",
+      "tier": 1,
+      "blurb": "We geloven in het helpen van mensen om geweldige dingen te doen. Daarom is CIQ een sponsor van de RESF. We bieden commerciële ondersteuning en diensten voor Rocky Linux aan klanten in onderzoek, academici, overheid, ondernemerschap, partners en iedereen daartussen."
+    },
+    "45drives": {
+      "name": "45Drives",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "45Drives biedt enterprise opslagoplossingen gebouwd op krachtige en robuuste open-source software waarmee klanten kunnen profiteren van de kostenbesparingen en flexibiliteit van off-the-shelf hardware. Bekijk ze voor een volledig ondersteunde oplossing voor de gegevensopslag tegen de beste kosten per terabyte!"
+    },
+    "aws": {
+      "name": "Amazon Web Services",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "De RESF maakt gebruik van AWS om een groot deel van de onderliggende infrastructuur te draaien die cruciaal is voor de ontwikkeling en inzet van de diensten die Rocky Linux ondersteunen. Van Koji builders voor x86_64 en aarch64 draaiend in EC2 tot SRPM blob opslag in S3, AWS is fundamenteel voor veel van wat we doen."
+    },
+    "gcp": {
+      "name": "Google Cloud",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "Als hoofdsponsor van de RESF begrijpt Google het belang van Rocky Linux als een gratisen open gemeenschapsbesturingssysteem. We stellen hulpmiddelen beschikbaar voor testen en validering, daarnaast werken we samen met de RESF om vanaf dag één te zorgen voor Rocky's status als eersteklas burger op het Google Cloud Platform."
+    },
+    "azure": {
+      "name": "Microsoft Azure",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "Linux is het snelst groeiende platform op Azure, dat wordt op meer dan de helft van de VM-kerns gedraaid. Al ruim een decennium investeert Microsoft in Linux. Omdat partnerschappen een centrale pijler van de opensourcestrategie van Microsoft zijn, werken we samen met de RESF en het bredere Rocky Linux ecosysteem om ervoor te zorgen dat klanten een steeds grotere set opties hebben om Linux workloads op Azure in te zetten in een ondersteunde, beheerde en veilige manier."
+    },
+    "montavista": {
+      "name": "MontaVista",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "MontaVista Software is de leider in embedded commerciële LInux, die MontaVista CGX, Yocto Project, CentOS en Rocky Linux ondersteunt. MontaVista biedt Open Source Software expertise, commerciële kwaliteit Linux distros, kosteneffectief onderhoud en ondersteuning voor 10+ jarige levenscyclussen."
+    },
+    "opendrives": {
+      "name": "OpenDrives",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA."
+    },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
+    },
+    "vmware": {
+      "name": "VMware",
+      "title": "Hoofdsponsor",
+      "tier": 1,
+      "blurb": "VMware is een leidende leverancier van multi-cloud diensten voor alle apps, waardoor digitale innovatie mogelijk is met enterprise controle."
+    },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "Niveau 4 Sponsor",
+      "tier": 4
+    },
+    "procomputers": {
+      "name": "ProComputers.com",
+      "title": "Niveau 4 Sponsor",
+      "tier": 4
+    },
+    "seagate": {
+      "name": "Seagate Federal",
+      "title": "Niveau 4 Sponsor",
+      "tier": 4
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "title": "Niveau 4 Sponsor",
+      "tier": 4
+    }
+  }
+}

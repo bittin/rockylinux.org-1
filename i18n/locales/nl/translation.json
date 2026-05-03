@@ -1,0 +1,58 @@
+{
+  "language": "nl",
+  "js-warning": "Het lijkt erop dat JavaScript uitgeschakeld is in uw browser. Hoewel de meeste delen van deze website werken zonder het gebruik van JavaScript, kunnen onbedoelde ervaringen worden opgedaan tijdens het browsen van onze site. Overweeg een uitzondering te maken voor onze website in de instellingen van uw browser.",
+  "categories": {
+    "news": "Nieuws",
+    "about": "Over",
+    "community": "Gemeenschap",
+    "documentation": "Documentatie",
+    "get-involved": "Meehelpen",
+    "legal": "Juridisch",
+    "language": "Taal",
+    "foundation": "Foundation"
+  },
+  "about": {
+    "about": "Over Rocky Linux",
+    "faq": "Veelgestelde Vragen",
+    "charter": "Gemeenschapshandvest",
+    "org-structure": "Organisatiestructuur",
+    "status": "Service Status",
+    "sponsors": "Sponsoren",
+    "partners": "Partners",
+    "support": "Ondersteuningspartners",
+    "errata": "Security Errata"
+  },
+  "community": {
+    "contribute": "Meehelpen",
+    "forums": "Forums",
+    "mailing": "Mailinglijsten",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "Kalender",
+    "bug": "Bug verzenden",
+    "donate": "Doneren",
+    "store": "Winkel"
+  },
+  "documentation": {
+    "wiki": "Wiki",
+    "guides": "Handleidingen en Tutorials",
+    "keys": "GPG-sleutel Info"
+  },
+  "legal": {
+    "licensing": "Licensering",
+    "privacy": "Privacybeleid"
+  },
+  "foundation": {
+    "charter": "RESF Charter & Bylaws",
+    "faq": "RESF FAQ"
+  },
+  "lang": {
+    "choose": "Taal Kiezen",
+    "translate": "Vertaal deze site"
+  },
+  "download": "Download",
+  "copyright": {
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+  }
+}

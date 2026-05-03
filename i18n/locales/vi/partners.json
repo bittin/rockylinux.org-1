@@ -1,0 +1,63 @@
+{
+  "title": "Đối tác",
+  "description": "Các đối tác của RESF mô tả các sự liên kết của các tổ chức có đóng góp quan trọng vào sự phát triển của dự án Rocky Linux. Tất cả các sự hỗ trợ nguồn lực về con người, công nghệ, kiến trúc, tài nguyên,... sự đóng góp của họ là vô cùng quan trọng đối với chúng tôi để đảm bảo sự thành công và ổn định của dự án trong dài hạn.",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Đối tác đồng sáng lập",
+      "blurb": "Chúng tôi tin rằng việc giúp đỡ lẫn nhau sẽ luôn mang lại kết quả tuyệt vời. Đó là lý do tại sao CIQ là nhà tài trợ kiêm đồng sáng lập của RESF. Chúng tôi cung cấp các dịch vụ hỗ trợ và các dịch vụ liên quan đến Rocky Linux cho các khách hàng thuộc các lĩnh vực nghiên cứu, hàn lâm, chính phủ, doanh nghiệp, các đối tác, và các đối tượng khách hàng khác có nhu cầu."
+    },
+    "arm": {
+      "name": "Arm",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "ARM đã cam kết để đảm bảo rằng các kiến trúc của họ được hỗ trợ đầy đủ cho Rocky Linux ngay từ những ngày đầu tiên. Chúng tôi đã cộng tác với RESF, cung cấp các hỗ trợ kĩ thuật chuyên biệt  dành cho việc phát triển Rocky Linux cũng như các nhóm kiểm thử, làm việc gắn kết với nhau để thử nghiệm, kiểm tra, và sẽ luôn hỗ trợ kiến trúc ARM từ bây giờ và cả trong tương lai dài hạn."
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Equinix là một công ty cung cấp hạ tầng dịch vụ số hàng đầu thế giới. Các tập đoàn công nghệ hàng đàu đã sử dụng dịch vụ đáng tin cậy của chúng tôi để tập hợp và kết nối các nền tảng cơ sở hạ tầng của họ và đã tạo nên thành công."
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Dịch vụ đám mây của Fastly cho phép khách hàng của chúng tôi tạo ra các trải nghiệm số nhanh tróng, an toàn, thuận tiện bằng cách xử lý, cung cấp và đảm bảo an toàn cho các ứng dụng của khách hàng chúng tôi đến với người dùng cuối một cách nhanh nhất và gần gũi nhất"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Mattermost là một giải pháp liên lạc bằng tin nhắn (Messaging) mã nguồn mở được tạo ra dành cho những tổ chức yêu cầu về độ bảo mật  rất cao. Với niềm tin mãnh liệt vào mã nguồn mở, Mattermost rất vui khi được cộng tác với RESF để giúp đưa những bản phân phối Linux đạt chuẩn doanh nghiệp đến với cộng đồng công nghệ."
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "NAVER Cloud Platform là một cong ty cung cấp dịch vụ Cloud đến từ Hàn Quốc, được thành lập năm 2017 với tên gọi NAVER Cloud. Đây là một công ty con của NAVER, cung cấp 170 loại dịch vụ khác nhau trong năm 2021 và đã đạt được nhiều chứng trỉ bảo mật quan trọng bao gồm CSA STAR GOLD, GDPR,.... Công ty cũng đã và đang cung cấp dịch vụ cloud tại 10 địa điểm khác nhau trên toàn thế giới."
+    },
+    "osl": {
+      "name": "OSU Open Source Labs",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Viện nghiên cứu mã nguồn mở của Đại học Oregon State (Oregon State University Open Source Lab - OSL) là một tổ chức phi lợi nhuận nghiên cứu chuyên sâu về các công nghệ mã nguồn mở. OSL cung cấp dịch vụ hosting tuyệt vời,  dịch vụ phát triển phần mềm chuyên nghiệp, và đào tạo các sinh viên tài năng có hứng thú nghiên cứu về lĩnh vục lập trình và quản lý phần mềm mã nguồn mở."
+    },
+    "supermicro": {
+      "name": "Supermicro",
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Doanh nghiệp dẫn đầu thế giới về công nghệ máy chú tốc độ nhanh, hiệu năng cao Supermicro rất vui khi được hợp tác cùng RESF để mang lại các dịch vụ máy chủ và hệ thống lưu trữ dữ liệu được tối ưu dành cho Rocky Linux"
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "Nhà tài trợ hạng 4"
+    },
+    "dsstudio": {
+      "name": "DotSlash Studio",
+      "tier": "Nhà tài trợ hạng 4"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "Nhà tài trợ hạng 4"
+    },
+    "act": {
+      "name": "Advanced Clustering Technologies",
+      "tier": "Principal Partner",
+      "blurb": "Advanced Clustering Technologies has been building custom, turn-key high performance computing systems since 2001. We provide on premises and cloud HPC solutions based on the latest architectures. Learn more, configure a system, and request a quote at advancedclustering.com."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Tất cả mọi chuyện bắt đầu từ một bình luận trên blog",
+  "subtitle": "Lịch sử hình thành",
+  "content": {
+    "highlight": "Vào ngày 8 tháng 12 năm 2020, Red Hat đưa ra một thông báo rằng họ sẽ ngừng việc phát triển của CentOS, một phiên bản Linux ổn định và miễn phí của RHEL, để tạo ra một phiên bản mới gọi là \"CentOS Stream\" nhằm mục đích tạo môi trường thử nghiệm các thay đổi mới nhất trước khi chúng được đưa vào RHEL. Để phản hồi lại hành động này, nhà sáng lập đầu tiên của CentOS, Gregory Kurtzer, đã thông báo bằng một <0>bình luận trên website của CentOS</0> rằng anh ấy sẽ bắt đầu thực hiện một dự án mới nhằm mục đích xây dựng các giá trị nguyên bản mà CentOS đã hướng tới. Cái tên Rocky Linux được lựa chọn như là một sự tri ân dành cho đồng sáng lập quá cố của CentOS, Rocky McGaugh. Vào ngày 12 tháng 12, kho mã nguồn của Rockly Linux đã lọt vào danh sách các kho mã nguồn thịnh hành nhất trên Github.",
+    "paragraph": "Vào ngày 22 tháng 12 năm 2020, Rocky Linux thông báo rằng phiên bản đầu tiên sẽ được ra mắt trong khoảng tháng 3 - tháng 5 của năm 2021. Vào ngày 20 tháng 1 năm 2021, nhóm phát triển thông báo rằng một repository thử nghiệm sẽ được đăng tải vào cuối tháng 2, kèm theo đó là một phiên bản dùng thử (Release Candidate - RC) đã được lên lịch phát hành vào tháng 3 năm 2021. Tuy nhiên, lịch trình này bị thay đổi lại một chút, và vào ngày 30 tháng 4 năm 2021, phiên bản dùng thử đầu tiên chính thức được ra mắt. Pheien bản dùng thử thứ hai, tương ứng với phiên bản 8.4, là phiên bản dùng thử cuối cùng, được ra mắt vào ngày 4 tháng 6 năm 2021. Vào ngày 21 tháng 7 năm 2021, phiên bản chính thức của Rocky Linux được ra mắt, với tên mã \"Green Obsidian\"."
+  },
+  "organization": {
+    "heading": "Giới thiệu tổ chức",
+    "paragraph": "Dự and Rocky Linux được tạo lập và điều hành bởi Rocky Enterprise Software Foundation (RESF). Để tìm hiểu thêm về cơ cấu + mô hình tổ chức, vui lòng truy cập đến <0>trang này</0>."
+  },
+  "quote": {
+    "content": "Quay lại những ngày đầu tiên xây dựng CentOS... người bạn đồng hành của tôi là Rocky McGaugh. Anh ấy đã không còn nữa, vì vậy, để tuỏng nhớ và vinh danh anh ấy, người chưa được nhìn thấy sự thành công của CentOS đã tạo ra, tôi xin giới thiệu đến bạn... Rocky Linux",
+    "gmk": "Gregory Kurtzer\n",
+    "occupation": "Đồng sáng lập của CentOS / Nhà sáng lập Rocky Linux"
+  }
+}

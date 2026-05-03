@@ -1,0 +1,58 @@
+{
+  "language": "zh_cn",
+  "js-warning": "您的浏览器似乎禁用了JavaScript，虽然本网站的大部分区域无需使用JavaScript即可正常工作，但您在浏览我们的网站时可能会遇到非预期的体验，请考虑在您的浏览器设置中为我们的网站设置一个例外。",
+  "categories": {
+    "news": "消息",
+    "about": "关于",
+    "community": "社区",
+    "documentation": "文档",
+    "get-involved": "参与进来",
+    "legal": "法律声明",
+    "language": "语言",
+    "foundation": "基金会"
+  },
+  "about": {
+    "about": "关于 Rocky Linux",
+    "faq": "常见问题解答",
+    "charter": "社区宪章",
+    "org-structure": "组织架构",
+    "status": "服务状态",
+    "sponsors": "赞助商",
+    "partners": "合作伙伴",
+    "support": "支持提供商",
+    "errata": "安全性勘误表"
+  },
+  "community": {
+    "contribute": "贡献",
+    "forums": "论坛",
+    "mailing": "邮件列表",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "日程表",
+    "bug": "提交Bug",
+    "donate": "捐助",
+    "store": "商店"
+  },
+  "documentation": {
+    "wiki": "维基",
+    "guides": "指南和手册",
+    "keys": "GPG 密钥信息"
+  },
+  "legal": {
+    "licensing": "开源许可协议",
+    "privacy": "隐私政策"
+  },
+  "foundation": {
+    "charter": "RESF 宪章&法规",
+    "faq": "RESF 常见问题解答"
+  },
+  "lang": {
+    "choose": "选择语言",
+    "translate": "翻译此网站"
+  },
+  "download": "下载",
+  "copyright": {
+    "line1": "© 2020-<0>2021</0> Rocky企业软件基金会（RESF）版权所有。",
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+  }
+}

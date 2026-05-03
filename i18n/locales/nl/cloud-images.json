@@ -1,0 +1,13 @@
+{
+  "title": "Cloudafbeeldingen",
+  "description": "Vind onze officiële afbeeldingen van je favoriete cloud provider.",
+  "headings": {
+    "version": "OS Versie",
+    "provider": "Provider",
+    "region": "Regio",
+    "arch": "Architectuur",
+    "id": "Afbeelding ID",
+    "deploy": "Inzetlink"
+  },
+  "deploy": "Inzetten"
+}

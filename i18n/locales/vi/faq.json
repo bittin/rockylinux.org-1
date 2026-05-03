@@ -1,0 +1,30 @@
+{
+  "title": "Các câu hỏi thường gặp",
+  "description": "Dưới đây là danh sách các câu hỏi thường gặp",
+  "faq": {
+    "1": {
+      "question": "Tôi có thể giúp tạo mirror cho các phiên bản Rocky Linux như thế nào?",
+      "answer": "Hãy gửi mail đến <0>mirrors@rockylinux.org</0> để mô tả nguyện vọng của bạn."
+    },
+    "2": {
+      "question": "Tôi gặp lỗi khi sử dụng Rocky Linux, tôi có thể làm gì?",
+      "answer": "Đầu tiên,  hãy tạo 1 tài khoản bằng <0>Rocky Linux Account Services</0>, sau đó truy cập vào <1>Bugzilla server</1> của chúng tôi để thông báo lỗi."
+    },
+    "3": {
+      "question": "Làm thế nào để có thể tham gia vào Nhóm thử nghiệm?",
+      "answer": "Để bắt đầu, hãy tham gia vào kênh <0>~Testing</0> trên máy chủ Mattermost của chúng tôi. Trên diễn đàn cũng có một chủ để liên quan đến việc thử nghiệm, dành cho các cuộc thảo luận lâu dài."
+    },
+    "4": {
+      "question": "Tôi có thể đọc các tin tức mới nhất về Rocky Linux ở đâu?",
+      "answer": "Hãy theo dõi trên website, Linkedin, diễn đàn của chúng tôi hoặc các nền tảng khác được liệt kê trên website để  có được các thông bao mới nhất."
+    },
+    "5": {
+      "question": "Các bạn sẽ làm thế nào để đảm bảo Rocky Linux sẽ luôn là hệ điều hành của cộng đồng?",
+      "answer": "Đầu tiên, chúng tôi đã thực hiện các thủ tục để bảo vệ pháp lý cho thương hiệu Rocky Linux.  Điều này có nghĩa là chúng tôi thực hiện việc đăng ký bản quyền thương hiệu cũng như các thông tin liên quan khác để bảo vệ chúng khỏi bị kiểm soát bởi các pháp nhân khác. Chúng tôi thực hiện điều này dưới danh nghĩa của RESF. Bên cạnh đó, chúng tôi đã soạt thảo một bản công bố cho cộng đồng về cơ cấu của tổ chức, các mục tiêu, giá trị, và nhiệm vụ để đảm bảo các quyền cố hữu của cộng đồng: Tính minh bạch, tính độc lập, có sự tham gia của cộng đồng và được phát triển theo xu hướng mở. <0>Rocky Linux sẽ không bao giờ bị kiểm soát, bị bua lại, hay bị chi phối của bất kì một các nhân hay tổ chức nào.</0> Cuối cùng, chúng tôi đang xây dựng và triển khai các hệ thống cần thiết để cho phép cộng đồng đóng góp vào sự phát triển của Rocky Linux trong tương lai."
+    },
+    "6": {
+      "question": "Tôi sẽ làm gì nếu như muốn gửi phản hồi, hoặc các câu hỏi của tôi không có ở đây?",
+      "answer": "Hãy gửi mail cho chúng tôi: <0>hello@rockylinux.org</0>. Chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Veelgestelde Vragen",
+  "description": "Hieronder staat een lijst van onze meest gestelde vragen.",
+  "faq": {
+    "1": {
+      "question": "Hoe kan ik helpen met het mirroren van huidige en toekomstige Rocky Linux releases?",
+      "answer": "Stuur een e-mail naar <0>mirrors@rockylinux.org</0> om uw interesse te tonen."
+    },
+    "2": {
+      "question": "Ik ben een bug tegengekomen tijdens het testen van Rocky Linux, wat kan ik doen?",
+      "answer": "Maak eerst een account aan met <0>Rocky Linux Account Services</0>, en ga daarna naar onze <1>Bugzilla server</1> om bugs te melden."
+    },
+    "3": {
+      "question": "Hoe kan ik betrokken raken bij het testteam?",
+      "answer": "Doe mee met het <0>~Testing</0> kanaal op onze Mattermost server om te beginnen. Er is ook een testing topic op het forum voor een duurzamere gesprekken."
+    },
+    "4": {
+      "question": "Waar kan ik het laatste nieuws over Rocky Linux vinden?",
+      "answer": "Blijf op de hoogte van onze website, Twitter, LinkedIn, forums en andere platforms die in onze link map staan voor de meest recente aankondigingen."
+    },
+    "5": {
+      "question": "Hoe zult u ervoor zorgen dat Rocky Linux echt community enterprise besturingssysteem blijft?",
+      "answer": "Ten eerste hebben we stappen ondernomen om de naam Rocky Linux wettelijk te beschermen. Dit betekent het registreren van handelsmerken en diverse bijbehorende eigendommen om te voorkomen dat ze worden gecontroleerd door een andere entiteit. We hebben dit bereikt door ze in te richten onder de Rocky Enterprise Software Foundation (RESF). Vervolgens hebben we een gemeenschapshandvest opgesteld dat de organisatiestructuur, doelstellingen, waarden en missie achter de rechtspersoon die Rocky Linux vertegenwoordigt, definieert. Noodzakelijk in dit handvest is de vaststelling van beginselen die de gemeenschap inschakelen en beschermen: transparantie, gemeenschappelijke betrokkenheid, open ontwikkeling en onafhankelijkheid. <0>Rocky Linux zal nooit gecontroleerd, gekocht of anderszins beïnvloed worden door een enkele entiteit of organisatie. /0> Tot slot bouwen we aan en implementeren we de benodigde infrastructuur om de gemeenschap verder in staat te stellen bij te dragen aan Rocky Linux."
+    },
+    "6": {
+      "question": "Wat als ik feedback heb of mijn vraag hier niet beantwoord is?",
+      "answer": "Email ons: <0>hello@rockylinux.org</0> en we zullen zo snel mogelijk contact met u opnemen."
+    }
+  }
+}

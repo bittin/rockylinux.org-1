@@ -2,17 +2,17 @@ const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 async function paginate({ graphql, actions, type, itemPerPage }) {
-  const template = path.resolve('./src/pages/' + type + '.jsx');
+  const template = path.resolve('./src/pages/' + type + '.js');
   const result = await graphql(
     `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          filter: { frontmatter: { posttype: { eq: "${type}" } } }) {
-          totalCount
+        {
+          allMarkdownRemark(
+            sort: { fields: [frontmatter___date], order: DESC }
+            filter: { frontmatter: { posttype: { eq: "${type}" } } }) {
+            totalCount
+          }
         }
-      }
-    `
+      `
   );
 
   if (result.errors) {
@@ -39,44 +39,36 @@ async function paginate({ graphql, actions, type, itemPerPage }) {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPost = path.resolve(`./src/templates/blog-post.jsx`);
-  const genericPage = path.resolve(`./src/templates/generic-page.jsx`);
-  const pressLinkTemplate = path.resolve(`./src/templates/project-post.jsx`);
-  const result = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                date
-              }
+  const postPage = path.resolve(`./src/templates/blog-post.js`);
+  const genericPage = path.resolve(`./src/templates/generic-page.js`);
+  const result = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: ASC }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date
+              posttype
             }
           }
         }
       }
-    `
-  );
+    }
+  `);
 
   if (result.errors) {
     throw result.errors;
   }
 
   result.data.allMarkdownRemark.edges.forEach((edge) => {
-    if (edge.node.frontmatter.posttype === 'press') {
-      createPage({
-        path: edge.node.frontmatter.path,
-        component: pressLinkTemplate,
-        context: {},
-      });
-    } else if (edge.node.frontmatter.posttype === 'page') {
+    if (edge.node.frontmatter.posttype === 'page') {
       createPage({
         path: edge.node.fields.slug,
         component: genericPage,
@@ -87,7 +79,7 @@ exports.createPages = async ({ graphql, actions }) => {
     } else {
       createPage({
         path: edge.node.fields.slug,
-        component: blogPost,
+        component: postPage,
         context: {
           slug: edge.node.fields.slug,
         },
@@ -96,8 +88,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   await Promise.all([
-    paginate({ graphql, actions, type: 'news', itemPerPage: 3 }),
-    paginate({ graphql, actions, type: 'press', itemPerPage: 5 }),
+    paginate({ graphql, actions, type: 'news', itemPerPage: 9 }),
   ]);
 };
 
@@ -131,18 +122,15 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
     }
-
     type SectionItem {
       name: String!
       description: String!
       link: String!
     }
-
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
       fields: Fields
     }
-
     type Frontmatter {
       title: String
       description: String
@@ -150,7 +138,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       date: Date @dateformat
       url: String
     }
-
     type Fields {
       slug: String
     }

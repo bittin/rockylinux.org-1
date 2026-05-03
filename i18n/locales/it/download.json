@@ -1,0 +1,53 @@
+{
+  "title": "Scarica Rocky",
+  "description": "Scaricate la versione ufficiale di Rocky da uno dei nostri mirror affidabili.",
+  "rl8": "Rocky 8",
+  "rl9": "Rocky 9",
+  "elCompat8": "Compatibile con Enterprise Linux v8",
+  "elCompat9": "Compatibile con Enterprise Linux v9",
+  "rl8-eol": "<0>EOL pianificata</0>: 31 maggio 2029",
+  "rl9-eol": "<0>EOL pianificata</0>: 31 Maggio 2032",
+  "headings": {
+    "arch": "Architettura",
+    "isos": "ISO",
+    "packages": "Pacchetti"
+  },
+  "body": {
+    "x86_64": "x86_64",
+    "arm": "ARM64 (aarch64)",
+    "minimal": "Minimal",
+    "dvd": "DVD",
+    "boot": "Boot",
+    "torrent": "Torrent",
+    "checksum": "Checksum",
+    "baseos": "BaseOS"
+  },
+  "links": {
+    "alt": "Immagini Alternative",
+    "bug": "Segnala un Bug",
+    "cloud": "Immagini Cloud",
+    "docs": "Documentazione",
+    "vault": "Release archiviate",
+    "verify": "Verificare il download"
+  },
+  "get-involved": {
+    "heading": "Partecipa",
+    "body": "Mentre scarichi e usi Rocky Linux, la Rocky Enterprise Software Foundation ti invita a <0>essere parte della community come contributore</0>. Ci sono molte maniere per contribuire al progetto, dalla documentazione, QA, e testing, al proporre cambiamenti al codice per i SIG, fornire mirror o hosting, e aiutare gli altri utenti."
+  },
+  "isos": {
+    "heading": "Qual è la differenza tra le ISO?",
+    "body": "Per l'installazione di Rocky sono disponibili diverse immagini di installazione. L'immagine da scaricare dipende dall'ambiente di installazione e dal caso d'uso.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Utilizzata per installare il sistema operativo da un'altra fonte (come un repository HTTP di file binary). Può anche essere adoperata per entrare nella Rescue Mode."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Utilizzata per installare il sistema operativo da un'altra fonte (come un repository HTTP di file binary). Può anche essere adoperata per entrare nella Rescue Mode."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "Un'installazione completa che contiene i repository BaseOS e AppStream e che ti consente di completare l'installazione senza repository aggiuntivi. Installare Rocky Linux dalla ISO DVD è il metodo più facile e comune per effettuare un'installazione standard di Rocky Linux."
+    }
+  }
+}

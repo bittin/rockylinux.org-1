@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "new": "Có gì mới?",
+    "title": "Linux dành cho doanh nghiệp, được phát triển bởi cộng đồng",
+    "description": "Rocky Linux là một hệ điều hành mã nguồn mở được thiết kế nhằm đảm bảo tương thích 100% với hệ thống của Red Hat Enterprise Linux<0>&#174;</0>. Dự án hiện tại đang được phát triển rất nhanh bởi cộng đồng.",
+    "cta1": "Tải về",
+    "cta2": "Nâng cấp"
+  },
+  "features": {
+    "title": "Ổn định, uy tín trong mọi trường hợp.",
+    "subtitle": "Một bản Linux ổn định, thích hợp cho môi trường production",
+    "description": "Rocky Linux được xây dựng dựa trên nguồn được lấy trực tiếp từ RHEL<0>&#174;</0>, vì vậy, bạn có thể yên tâm rằng bạn sẽ có một trải nghiệm siêu ổn định và tin cậy, trong bất kì tình huống nào.",
+    "1": {
+      "title": "Sẵn sàng cho hệ thống thương mai",
+      "description": "Rocky Linux luôn sẵn sàng cho các hệ thống thương mại lớn, cung cấp một sự ổn định tuyệt vời, với việc cập nhật định kì và hỗ trợ vòng đời sản phẩm lên tới 10 năm, tất cả đều hoàn toàn miễn phí."
+    },
+    "2": {
+      "title": "Được hỗ trợ bởi cộng đồng",
+      "description": "Cộng đồng, các nhà tài trợ và các đối tác đã cam kết các sự đóng góp lâu dài để đảm bảo rằng dự án này tiếp tục được phát triển và thuộc về cộng đồng."
+    },
+    "3": {
+      "title": "Dễ dàng chuyển đổi",
+      "description": "Chuyển đổi từ các bản Enterprise Linux khác mà không phải cài đặt lại. Chúng tôi cung cấp một công cụ chuyển đổi miễn phí để thực hiện việc này."
+    }
+  },
+  "latest-news": {
+    "title": "Tin tức mới nhất",
+    "description": "Chúng tôi định kì cập nhật với cộng đồng về những gì đang diễn ra. Đây là các tin tức mới nhất"
+  },
+  "sponsors-partners": {
+    "backed": "Được bảo trợ bởi",
+    "sponsors": "Tất cả các nhà tài trợ",
+    "partners": "Tất cả đối tác",
+    "support": "Nhà cung cấp dịch vụ hỗ trợ"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Bản dành cho Cloud",
+  "description": "Tìm bản Image chính thức của chúng tôi từ các nhà cung cấp dịch vụ cloud yêu thích của bạn",
+  "headings": {
+    "version": "Phiên bản hệ điều hành",
+    "provider": "Nhà cung cấp",
+    "region": "Khu vực",
+    "arch": "Kiến trúc",
+    "id": "Image ID",
+    "deploy": "Liên kết triển khai"
+  },
+  "deploy": "Triển khai"
+}
